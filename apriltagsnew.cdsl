@@ -1,0 +1,15 @@
+import "/robocomp/interfaces/IDSLs/DifferentialRobot.idsl";
+import "/robocomp/interfaces/IDSLs/Laser.idsl";
+import "/robocomp/interfaces/IDSLs/GetAprilTags.idsl";
+import "/robocomp/interfaces/IDSLs/AprilTags.idsl";
+import "/robocomp/interfaces/IDSLs/RGBD.idsl";
+import "/robocomp/interfaces/IDSLs/RGBDBus.idsl";
+import "/robocomp/interfaces/IDSLs/Camera.idsl";
+Component apriltagsnewComp{
+	Communications{
+		requires DifferentialRobot, Laser, Camera, RGBDBus, RGBD;
+		publishes AprilTags;
+		implements GetAprilTags;
+	};
+	language Cpp;
+};

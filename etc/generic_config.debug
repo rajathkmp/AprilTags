@@ -1,0 +1,26 @@
+# Debug config file
+
+#
+# This property is used to configure the endpoints of the subscriber adapter.
+#
+GetAprilTagsComp.Endpoints=tcp -p 12209
+CommonBehavior.Endpoints=tcp -p 12248
+
+# Remote servers proxies example
+#RemoteProxy = remote:tcp -h remotehost -p 10001
+
+LaserProxy = laser:tcp -h localhost -p 10003
+CameraProxy = camera:tcp -h localhost -p 10001
+RGBDProxy = rgbd:tcp -h localhost -p 10096
+DifferentialRobotProxy = differentialrobot:tcp -h localhost -p 10004
+RGBDBusProxy = rgbdbus:tcp -h localhost -p 10239
+
+#
+# This property is used by the clients to connect to IceStorm.
+#
+TopicManager.Proxy=DemoIceStorm/TopicManager:default -p 10000
+
+#
+# Topics ID
+#
+AprilTags=AprilTags

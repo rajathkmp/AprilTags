@@ -1,0 +1,3 @@
+/home/rajath/robocomp/components/mycomponents/apriltagsdsl/src/CMakeFiles/apriltagsnewcomp.dir
+/home/rajath/robocomp/components/mycomponents/apriltagsdsl/CMakeFiles/doc.dir
+/home/rajath/robocomp/components/mycomponents/apriltagsdsl/CMakeFiles/installdoc.dir
