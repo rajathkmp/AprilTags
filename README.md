@@ -1,1 +1,1 @@
-# apriltagsdsl
+RoboComp Component that subscribes to AprilTags.
